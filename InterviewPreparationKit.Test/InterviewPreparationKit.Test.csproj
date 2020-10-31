@@ -16,4 +16,16 @@
     <ProjectReference Include="..\InterviewPreperationKit\InterviewPreperationKit.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Array\Data\TwoDArrayTest\input\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\TwoDArrayTest\input\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\TwoDArrayTest\input\input08.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

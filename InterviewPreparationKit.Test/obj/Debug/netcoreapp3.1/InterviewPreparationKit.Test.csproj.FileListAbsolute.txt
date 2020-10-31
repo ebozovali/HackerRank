@@ -97,3 +97,6 @@ C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\obj\Debug\ne
 C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\obj\Debug\netcoreapp3.1\InterviewPreparationKit.Test.dll
 C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\obj\Debug\netcoreapp3.1\InterviewPreparationKit.Test.pdb
 C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\obj\Debug\netcoreapp3.1\InterviewPreparationKit.Test.genruntimeconfig.cache
+C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\TwoDArrayTest\input\input00.txt
+C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\TwoDArrayTest\input\input01.txt
+C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\TwoDArrayTest\input\input08.txt
