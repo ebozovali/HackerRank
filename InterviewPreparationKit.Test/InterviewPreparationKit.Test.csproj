@@ -17,10 +17,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Array\Data\ArraysLeftRotation\input\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\ArraysLeftRotation\input\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\ArraysLeftRotation\input\input10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Array\Data\TwoDArrayTest\input\input00.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Array\Data\TwoDArrayTest\input\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\TwoDArrayTest\input\input03.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Array\Data\TwoDArrayTest\input\input08.txt">
