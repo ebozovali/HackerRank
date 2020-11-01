@@ -104,3 +104,7 @@ C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\ne
 C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\ArraysLeftRotation\input\input00.txt
 C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\ArraysLeftRotation\input\input01.txt
 C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\ArraysLeftRotation\input\input10.txt
+C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\NewYearChaos\input\input00.txt
+C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\NewYearChaos\input\input01.txt
+C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\NewYearChaos\input\input11.txt
+C:\Users\elber\source\repos\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\NewYearChaos\input\input02.txt
