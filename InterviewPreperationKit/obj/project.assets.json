@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\elber\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\OACLIENT1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elber\\source\\repos\\HackerRank\\InterviewPreperationKit\\InterviewPreperationKit.csproj",
+      "projectUniqueName": "C:\\Users\\OACLIENT1\\Documents\\GitHub\\HackerRank\\InterviewPreperationKit\\InterviewPreperationKit.csproj",
       "projectName": "InterviewPreperationKit",
-      "projectPath": "C:\\Users\\elber\\source\\repos\\HackerRank\\InterviewPreperationKit\\InterviewPreperationKit.csproj",
-      "packagesPath": "C:\\Users\\elber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elber\\source\\repos\\HackerRank\\InterviewPreperationKit\\obj\\",
+      "projectPath": "C:\\Users\\OACLIENT1\\Documents\\GitHub\\HackerRank\\InterviewPreperationKit\\InterviewPreperationKit.csproj",
+      "packagesPath": "C:\\Users\\OACLIENT1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\OACLIENT1\\Documents\\GitHub\\HackerRank\\InterviewPreperationKit\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\elber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\OACLIENT1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,36 +17,106 @@ namespace InterviewPreparationKit.Test.Array
             string fileName = "input00.txt";
             string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\MinimumSwaps2\input\", fileName);
             String input = File.ReadAllText(path);
-            int numTasks = int.Parse(input.Split('\n')[0].Trim().Split(' ')[0]);
-            for (int i = 1; i <= numTasks; i++)
+            int i = 0;
+
+            string fileNameOutput = "output00.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\MinimumSwaps2\output\", fileNameOutput);
+            String output = File.ReadAllText(path);
+            int outputValue = int.Parse(output.Split('\n')[0].Trim());
+
+            int arrLength = int.Parse(input.Split('\n')[0].Trim());
+            int[] arr = new int[arrLength];
+            foreach (var col in input.Split('\n')[1].Trim().Split(' '))
             {
-                int j = 0;
-                int arrLength = int.Parse(input.Split('\n')[i*2 - 1].Trim().Split(' ')[0]);
-                int[] arr = new int[arrLength];
-                foreach (var col in input.Split('\n')[i * 2 ].Trim().Split(' '))
-                {
-                    arr[j] = int.Parse(col.Trim());
-                    j++;
-                }
-                //Act
-                var m=NewYearChaos.minimumBribes(arr);
-                //Assert
-                switch (i)
-                {
-                    case 1:
-                Assert.AreEqual("3", m);
-                        break;
-                    case 2:
-                        Assert.AreEqual("Too chaotic", m);
-                        break;
-                    default:
-                        break;
-                }
+                arr[i] = int.Parse(col.Trim());
+                i++;
             }
+            //Act
+            var result = MinimumSwaps2.minimumSwaps(arr);
 
-
-
+            ////Assert
+            Assert.AreEqual(outputValue, result);
         }
-      
+        [Test]
+        public void TestCase1()
+        {
+            //Arrange
+            string fileName = "input01.txt";
+            string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\MinimumSwaps2\input\", fileName);
+            String input = File.ReadAllText(path);
+            int i = 0;
+
+            string fileNameOutput = "output01.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\MinimumSwaps2\output\", fileNameOutput);
+            String output = File.ReadAllText(path);
+            int outputValue = int.Parse(output.Split('\n')[0].Trim());
+
+            int arrLength = int.Parse(input.Split('\n')[0].Trim());
+            int[] arr = new int[arrLength];
+            foreach (var col in input.Split('\n')[1].Trim().Split(' '))
+            {
+                arr[i] = int.Parse(col.Trim());
+                i++;
+            }
+            //Act
+            var result = MinimumSwaps2.minimumSwaps(arr);
+
+            ////Assert
+            Assert.AreEqual(outputValue, result);
+        }
+        [Test]
+        public void TestCase2()
+        {
+            //Arrange
+            string fileName = "input02.txt";
+            string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\MinimumSwaps2\input\", fileName);
+            String input = File.ReadAllText(path);
+            int i = 0;
+
+            string fileNameOutput = "output02.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\MinimumSwaps2\output\", fileNameOutput);
+            String output = File.ReadAllText(path);
+            int outputValue = int.Parse(output.Split('\n')[0].Trim());
+
+            int arrLength = int.Parse(input.Split('\n')[0].Trim());
+            int[] arr = new int[arrLength];
+            foreach (var col in input.Split('\n')[1].Trim().Split(' '))
+            {
+                arr[i] = int.Parse(col.Trim());
+                i++;
+            }
+            //Act
+            var result = MinimumSwaps2.minimumSwaps(arr);
+
+            ////Assert
+            Assert.AreEqual(outputValue, result);
+        }
+        [Test]
+        public void TestCase3()
+        {
+            //Arrange
+            string fileName = "input09.txt";
+            string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\MinimumSwaps2\input\", fileName);
+            String input = File.ReadAllText(path);
+            int i = 0;
+
+            string fileNameOutput = "output09.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\MinimumSwaps2\output\", fileNameOutput);
+            String output = File.ReadAllText(path);
+            int outputValue = int.Parse(output.Split('\n')[0].Trim());
+
+            int arrLength = int.Parse(input.Split('\n')[0].Trim());
+            int[] arr = new int[arrLength];
+            foreach (var col in input.Split('\n')[1].Trim().Split(' '))
+            {
+                arr[i] = int.Parse(col.Trim());
+                i++;
+            }
+            //Act
+            var result = MinimumSwaps2.minimumSwaps(arr);
+
+            ////Assert
+            Assert.AreEqual(outputValue, result);
+        }
     }
 }

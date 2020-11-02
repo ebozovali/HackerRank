@@ -11,3 +11,16 @@ C:\Users\elber\source\repos\HackerRank\InterviewPreperationKit\bin\Debug\netcore
 C:\Users\elber\source\repos\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.dll
 C:\Users\elber\source\repos\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.pdb
 C:\Users\elber\source\repos\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.genruntimeconfig.cache
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.csprojAssemblyReference.cache
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.AssemblyInfoInputs.cache
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.AssemblyInfo.cs
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.csproj.CoreCompileInputs.cache
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.dll
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.pdb
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\bin\Debug\netcoreapp3.1\InterviewPreperationKit.exe
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\bin\Debug\netcoreapp3.1\InterviewPreperationKit.deps.json
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\bin\Debug\netcoreapp3.1\InterviewPreperationKit.runtimeconfig.json
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\bin\Debug\netcoreapp3.1\InterviewPreperationKit.runtimeconfig.dev.json
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\bin\Debug\netcoreapp3.1\InterviewPreperationKit.dll
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\bin\Debug\netcoreapp3.1\InterviewPreperationKit.pdb
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreperationKit\obj\Debug\netcoreapp3.1\InterviewPreperationKit.genruntimeconfig.cache

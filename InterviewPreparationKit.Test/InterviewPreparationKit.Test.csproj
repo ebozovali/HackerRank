@@ -26,6 +26,30 @@
     <None Update="Array\Data\ArraysLeftRotation\input\input10.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Array\Data\MinimumSwaps2\input\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\MinimumSwaps2\input\input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\MinimumSwaps2\input\input02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\MinimumSwaps2\input\input09.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\MinimumSwaps2\output\output00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\MinimumSwaps2\output\output01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\MinimumSwaps2\output\output09.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\MinimumSwaps2\output\output02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Array\Data\NewYearChaos\input\input00.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
