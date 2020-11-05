@@ -226,3 +226,9 @@ C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\
 C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\MinimumSwaps2\output\output02.txt
 C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\MinimumSwaps2\output\output09.txt
 C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\MinimumSwaps2\input\input09.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\input\input00.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\input\input14.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\input\input15.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\output\output00.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\output\output14.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\output\output15.txt

@@ -18,23 +18,112 @@ namespace InterviewPreparationKit.Test.Array
             string fileName = "input00.txt";
             string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\input\", fileName);
             String input = File.ReadAllText(path);
-            int i = 0;
 
-            int arrLength = int.Parse(input.Split('\n')[0].Trim().Split(' ')[0]);
-            int numRotation = int.Parse(input.Split('\n')[0].Trim().Split(' ')[1]);
+            string fileNameOutput = "output00.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\output\", fileNameOutput);
+            String output = File.ReadAllText(path);
+            int outputValue = int.Parse(output.Split('\n')[0].Trim());
 
-            int[] arr = new int[arrLength];
-            foreach (var col in input.Split('\n')[1].Trim().Split(' '))
+            int N = int.Parse(input.Split('\n')[0].Trim().Split(' ')[0]);
+            int M = int.Parse(input.Split('\n')[0].Trim().Split(' ')[1]);
+
+            int i = 0, j = 0;
+            int[][] arr = new int[M][];
+
+            foreach (var row in input.Split('\n'))
             {
-                arr[i] = int.Parse(col.Trim());
+                if (i != 0)
+                {
+                    j = 0;
+                    arr[i - 1] = new int[M];
+                    foreach (var col in row.Trim().Split(' '))
+                    {
+                        arr[i - 1][j] = int.Parse(col.Trim());
+                        j++;
+                    }
+                }
+
                 i++;
             }
             //Act
-            var result = ArraysLeftRotation.rotLeft(arr,numRotation);
-
-            ////Assert
-            Assert.AreEqual(new int[] { 5, 1, 2, 3, 4 }, result);
+            var result = Crush.crush(N, arr);
+            Assert.AreEqual(result, outputValue);
         }
-       
+        [Test]
+        public void TestCase1()
+        {
+            //Arrange
+            string fileName = "input14.txt";
+            string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\input\", fileName);
+            String input = File.ReadAllText(path);
+
+            string fileNameOutput = "output14.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\output\", fileNameOutput);
+            String output = File.ReadAllText(path);
+            int outputValue = int.Parse(output.Split('\n')[0].Trim());
+
+            int N = int.Parse(input.Split('\n')[0].Trim().Split(' ')[0]);
+            int M = int.Parse(input.Split('\n')[0].Trim().Split(' ')[1]);
+
+            int i = 0, j = 0;
+            int[][] arr = new int[M][];
+
+            foreach (var row in input.Split('\n'))
+            { 
+                if (i != 0)
+                {
+                    j = 0;
+                    arr[i-1] = new int[M];
+                    foreach (var col in row.Trim().Split(' '))
+                    {
+                        arr[i-1][j] = int.Parse(col.Trim());
+                        j++;
+                    }
+                }
+               
+                i++;
+            }
+            //Act
+            var result = Crush.crush(N, arr);
+            Assert.AreEqual(result, outputValue);
+        }
+        [Test]
+        public void TestCase2()
+        {
+            //Arrange
+            string fileName = "input15.txt";
+            string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\input\", fileName);
+            String input = File.ReadAllText(path);
+
+            string fileNameOutput = "output15.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\output\", fileNameOutput);
+            String output = File.ReadAllText(path);
+            int outputValue = int.Parse(output.Split('\n')[0].Trim());
+
+            int N = int.Parse(input.Split('\n')[0].Trim().Split(' ')[0]);
+            int M = int.Parse(input.Split('\n')[0].Trim().Split(' ')[1]);
+
+            int i = 0, j = 0;
+            int[][] arr = new int[M][];
+
+            foreach (var row in input.Split('\n'))
+            {
+                if (i != 0)
+                {
+                    j = 0;
+                    arr[i - 1] = new int[M];
+                    foreach (var col in row.Trim().Split(' '))
+                    {
+                        arr[i - 1][j] = int.Parse(col.Trim());
+                        j++;
+                    }
+                }
+
+                i++;
+            }
+            //Act
+            var result = Crush.crush(N, arr);
+            Assert.AreEqual(result, outputValue);
+        }
     }
 }

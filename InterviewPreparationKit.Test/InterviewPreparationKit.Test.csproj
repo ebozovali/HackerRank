@@ -26,6 +26,24 @@
     <None Update="Array\Data\ArraysLeftRotation\input\input10.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Array\Data\Crush\input\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\Crush\input\input14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\Crush\input\input15.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\Crush\output\output00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\Crush\output\output14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Array\Data\Crush\output\output15.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Array\Data\MinimumSwaps2\input\input00.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
