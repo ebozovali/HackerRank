@@ -8,7 +8,7 @@ namespace InterviewPreperationKit.ArrayEx
     {
         public static long crush(int n, int[][] queries)
         {
-            long[] arr = new long[n];
+            long[] arr = new long[n+1];
 
             for (int i = 0; i < queries.Length; i++)
             {
@@ -16,6 +16,7 @@ namespace InterviewPreperationKit.ArrayEx
                     arr[a - 1] += k;
                     arr[b] -= k; // see comment at end of code
             }
+            // https://codereview.stackexchange.com/questions/154144/my-take-on-the-algorithmic-crush-problem-from-hackerrank
             //https://github.com/RodneyShag/HackerRank_solutions/blob/master/Data%20Structures/Arrays/Algorithmic%20Crush/Solution.java
             /* Find max value */
             long sum = 0;
