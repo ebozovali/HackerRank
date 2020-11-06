@@ -9,7 +9,7 @@ namespace InterviewPreperationKit.ArrayEx
     {
         //First challenge of arrays
         // Complete the hourglassSum function below.
-       public static int hourglassSum(int[][] arr)
+       public static int HourglassSum(int[][] arr)
         {
             int largestHourglassSum = 0;
             for (int i = 0; i < arr.Length-2; i++)

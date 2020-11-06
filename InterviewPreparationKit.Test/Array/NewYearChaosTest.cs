@@ -30,7 +30,7 @@ namespace InterviewPreparationKit.Test.Array
                     j++;
                 }
                 //Act
-                var m=NewYearChaos.minimumBribes(arr);
+                var m=NewYearChaos.MinimumBribes(arr);
                 //Assert
                 switch (i)
                 {
@@ -67,7 +67,7 @@ namespace InterviewPreparationKit.Test.Array
                     j++;
                 }
                 //Act
-                var m = NewYearChaos.minimumBribes(arr);
+                var m = NewYearChaos.MinimumBribes(arr);
                 //Assert
                 switch (i)
                 {
@@ -104,7 +104,7 @@ namespace InterviewPreparationKit.Test.Array
                     j++;
                 }
                 //Act
-                var m = NewYearChaos.minimumBribes(arr);
+                var m = NewYearChaos.MinimumBribes(arr);
                 //Assert
                 switch (i)
                 {
@@ -139,7 +139,7 @@ namespace InterviewPreparationKit.Test.Array
                     j++;
                 }
                 //Act
-                var m = NewYearChaos.minimumBribes(arr);
+                var m = NewYearChaos.MinimumBribes(arr);
                 //Assert
                 switch (i)
                 {

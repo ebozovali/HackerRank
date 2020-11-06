@@ -17,7 +17,7 @@ namespace InterviewPreparationKit.Test.WarmUp
             string path = "0 0 1 0 0 1 0";
             var pathArr=path.Split(' ').Select(n => Convert.ToInt32(n)).ToArray();
             //Act
-            var result = JumpingOnTheClouds.jumpingOnClouds(pathArr);
+            var result = JumpingOnTheClouds.JumpingOnClouds(pathArr);
             //Assert
             Assert.AreEqual(4, result);
         }
@@ -29,7 +29,7 @@ namespace InterviewPreparationKit.Test.WarmUp
             string path = "0 0 0 1 0 0";
             var pathArr = path.Split(' ').Select(n => Convert.ToInt32(n)).ToArray();
             //Act
-            var result = JumpingOnTheClouds.jumpingOnClouds(pathArr);
+            var result = JumpingOnTheClouds.JumpingOnClouds(pathArr);
             //Assert
             Assert.AreEqual(3, result);
         }

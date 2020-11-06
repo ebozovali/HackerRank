@@ -32,7 +32,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            var result = MinimumSwaps2.minimumSwaps(arr);
+            var result = MinimumSwaps2.MinimumSwaps(arr);
 
             ////Assert
             Assert.AreEqual(outputValue, result);
@@ -59,7 +59,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            var result = MinimumSwaps2.minimumSwaps(arr);
+            var result = MinimumSwaps2.MinimumSwaps(arr);
 
             ////Assert
             Assert.AreEqual(outputValue, result);
@@ -86,7 +86,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            var result = MinimumSwaps2.minimumSwaps(arr);
+            var result = MinimumSwaps2.MinimumSwaps(arr);
 
             ////Assert
             Assert.AreEqual(outputValue, result);
@@ -113,7 +113,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            var result = MinimumSwaps2.minimumSwaps(arr);
+            var result = MinimumSwaps2.MinimumSwaps(arr);
 
             ////Assert
             Assert.AreEqual(outputValue, result);

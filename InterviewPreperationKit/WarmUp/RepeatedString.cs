@@ -9,7 +9,7 @@ namespace InterviewPreperationKit.WarmUp
     {
 
         // Complete the repeatedString function below.
-        public static long repeatedString(string s, long n)
+        public static long RepeatedString(string s, long n)
         {
             long numberOfOccurences=0;
             long k = n / s.Length;

@@ -18,7 +18,7 @@ namespace InterviewPreparationKit.Test.WarmUp
             int steps = 8;
             string path = "UDDDUDUU";
             //Act
-            var result = CountingValleys.countingValleys(steps, path);
+            var result = CountingValleys.CountingValleys(steps, path);
             //Assert
             Assert.AreEqual(1, result);
         }
@@ -29,7 +29,7 @@ namespace InterviewPreparationKit.Test.WarmUp
             int steps = 12;
             string path = "DDUUDDUDUUUD";
             //Act
-            var result = CountingValleys.countingValleys(steps, path);
+            var result = CountingValleys.CountingValleys(steps, path);
             //Assert
             Assert.AreEqual(2, result);
         }

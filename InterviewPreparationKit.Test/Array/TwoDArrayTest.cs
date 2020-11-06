@@ -33,7 +33,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            int result = TwoDArray.hourglassSum(arr);
+            int result = TwoDArray.HourglassSum(arr);
             ////Assert
             Assert.AreEqual(19, result);
          }
@@ -59,7 +59,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            int result = TwoDArray.hourglassSum(arr);
+            int result = TwoDArray.HourglassSum(arr);
             ////Assert
             Assert.AreEqual(13, result);
         }
@@ -84,7 +84,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            int result = TwoDArray.hourglassSum(arr);
+            int result = TwoDArray.HourglassSum(arr);
             ////Assert
             Assert.AreEqual(28, result);
         }
@@ -109,7 +109,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            int result = TwoDArray.hourglassSum(arr);
+            int result = TwoDArray.HourglassSum(arr);
             ////Assert
             Assert.AreEqual(-6, result);
         }

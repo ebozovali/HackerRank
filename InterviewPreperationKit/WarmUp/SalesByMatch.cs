@@ -8,7 +8,7 @@ namespace InterviewPreperationKit.WarmUp
    public class SalesByMatch
     {
         // Complete the sockMerchant function below.
-        public static int sockMerchant(int n, int[] ar)
+        public static int SockMerchant(int n, int[] ar)
         {
             Array.Sort(ar);
             int pairedSockNumber=0;

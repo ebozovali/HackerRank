@@ -16,7 +16,7 @@ namespace InterviewPreperationKit.WarmUp
      *  2. STRING path
      */
 
-        public static int countingValleys(int steps, string path)
+        public static int CountingValleys(int steps, string path)
         {
             int numberOfValleys = 0;
             var pathArr = path.ToCharArray();

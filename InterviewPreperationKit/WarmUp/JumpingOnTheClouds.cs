@@ -10,7 +10,7 @@ namespace InterviewPreperationKit.WarmUp
         // Complete the jumpingOnClouds function below.
 
 
-        public static int jumpingOnClouds(int[] c)
+        public static int JumpingOnClouds(int[] c)
         {
             int minNumberOfJumps = 0;
 

@@ -3,7 +3,7 @@ namespace InterviewPreperationKit.ArrayEx
 {
     public class NewYearChaos
     {
-        public static string minimumBribes(int[] q)
+        public static string MinimumBribes(int[] q)
         {
             int minNumBribe = 0;
             string m = "";

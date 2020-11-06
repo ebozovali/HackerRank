@@ -4,7 +4,7 @@ namespace InterviewPreperationKit.ArrayEx
 {
     public class MinimumSwaps2
     {
-        public static int minimumSwaps(int[] arr)
+        public static int MinimumSwaps(int[] arr)
         {
             int min_index = 0;
             int min = arr[0];
