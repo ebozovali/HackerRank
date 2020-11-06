@@ -30,7 +30,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            var result = RansomNote.RotLeft(arr,numRotation);
+            var result = ArraysLeftRotation.rotLeft(arr,numRotation);
 
             ////Assert
             Assert.AreEqual(new int[] { 5, 1, 2, 3, 4 }, result);
@@ -54,7 +54,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            var result = RansomNote.RotLeft(arr, numRotation);
+            var result = ArraysLeftRotation.rotLeft(arr, numRotation);
 
             ////Assert
             Assert.AreEqual(new int[] { 77, 97 ,58 ,1 ,86 ,58 ,26 ,10 ,86 ,51 ,41 ,73 ,89 ,7 ,10 ,1 ,59 ,58 ,84 ,77 }, result);
@@ -78,7 +78,7 @@ namespace InterviewPreparationKit.Test.Array
                 i++;
             }
             //Act
-            var result = RansomNote.RotLeft(arr, numRotation);
+            var result = ArraysLeftRotation.rotLeft(arr, numRotation);
 
             ////Assert
             Assert.AreEqual(new int[] { 87 ,97 ,33 ,47 ,70 ,37 ,8, 53 ,13 ,93 ,71 ,72 ,51 ,100 ,60 }, result);

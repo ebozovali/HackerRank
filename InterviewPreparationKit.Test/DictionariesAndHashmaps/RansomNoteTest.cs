@@ -1,4 +1,5 @@
 ﻿using InterviewPreperationKit.ArrayEx;
+using InterviewPreperationKit.DictionariesAndHashmaps;
 using NUnit.Framework;
 using System;
 using System.IO;
@@ -16,114 +17,93 @@ namespace InterviewPreparationKit.Test.DictionariesAndHashmaps
         {
             //Arrange
             string fileName = "input00.txt";
-            string path = Path.Combine(Environment.CurrentDirectory, @"Array\DictionariesAndHashmaps\RansomNote\input\", fileName);
+            string path = Path.Combine(Environment.CurrentDirectory, @"DictionariesAndHashmaps\Data\RansomNote\input\", fileName);
             String input = File.ReadAllText(path);
+            var inputRows = input.Split('\n');
+            int magazineLength = int.Parse(inputRows[0].Trim().Split(' ')[0]);
+            int noteLength= int.Parse(inputRows[0].Trim().Split(' ')[1]);
+            string[] magazine = inputRows[1].Split(' ');
+            string[] ransomNote = inputRows[2].Split(' ');
 
             string fileNameOutput = "output00.txt";
-            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\DictionariesAndHashmaps\RansomNote\output\", fileNameOutput);
+            path = Path.Combine(Environment.CurrentDirectory, @"DictionariesAndHashmaps\Data\RansomNote\output\", fileNameOutput);
             String output = File.ReadAllText(path);
-            int outputValue = int.Parse(output.Split('\n')[0].Trim());
 
-            int N = int.Parse(input.Split('\n')[0].Trim().Split(' ')[0]);
-            int M = int.Parse(input.Split('\n')[0].Trim().Split(' ')[1]);
-
-            int i = 0, j = 0;
-            int[][] arr = new int[M][];
-
-            foreach (var row in input.Split('\n'))
-            {
-                if (i != 0)
-                {
-                    j = 0;
-                    arr[i - 1] = new int[M];
-                    foreach (var col in row.Trim().Split(' '))
-                    {
-                        arr[i - 1][j] = int.Parse(col.Trim());
-                        j++;
-                    }
-                }
-
-                i++;
-            }
+           
             //Act
-            var result = Crush.crush(N, arr);
-            Assert.AreEqual(result, outputValue);
+            var result = RansomNote.CheckMagazine(magazine, ransomNote);
+            //Assert
+            Assert.AreEqual(result, output);
         }
+
         [Test]
         public void TestCase1()
         {
             //Arrange
-            string fileName = "input14.txt";
-            string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\input\", fileName);
+            string fileName = "input20.txt";
+            string path = Path.Combine(Environment.CurrentDirectory, @"DictionariesAndHashmaps\Data\RansomNote\input\", fileName);
             String input = File.ReadAllText(path);
+            var inputRows = input.Split('\n');
+            int magazineLength = int.Parse(inputRows[0].Trim().Split(' ')[0]);
+            int noteLength = int.Parse(inputRows[0].Trim().Split(' ')[1]);
+            string[] magazine = inputRows[1].Split(' ');
+            string[] ransomNote = inputRows[2].Split(' ');
 
-            string fileNameOutput = "output14.txt";
-            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\output\", fileNameOutput);
+            string fileNameOutput = "output20.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"DictionariesAndHashmaps\Data\RansomNote\output\", fileNameOutput);
             String output = File.ReadAllText(path);
-            int outputValue = int.Parse(output.Split('\n')[0].Trim());
 
-            int N = int.Parse(input.Split('\n')[0].Trim().Split(' ')[0]);
-            int M = int.Parse(input.Split('\n')[0].Trim().Split(' ')[1]);
 
-            int i = 0, j = 0;
-            int[][] arr = new int[M][];
-
-            foreach (var row in input.Split('\n'))
-            { 
-                if (i != 0)
-                {
-                    j = 0;
-                    arr[i-1] = new int[M];
-                    foreach (var col in row.Trim().Split(' '))
-                    {
-                        arr[i-1][j] = int.Parse(col.Trim());
-                        j++;
-                    }
-                }
-               
-                i++;
-            }
             //Act
-            var result = Crush.crush(N, arr);
-            Assert.AreEqual(result, outputValue);
+            var result = RansomNote.CheckMagazine(magazine, ransomNote);
+            //Assert
+            Assert.AreEqual(result, output);
         }
         [Test]
         public void TestCase2()
         {
             //Arrange
-            string fileName = "input15.txt";
-            string path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\input\", fileName);
+            string fileName = "input21.txt";
+            string path = Path.Combine(Environment.CurrentDirectory, @"DictionariesAndHashmaps\Data\RansomNote\input\", fileName);
             String input = File.ReadAllText(path);
+            var inputRows = input.Split('\n');
+            int magazineLength = int.Parse(inputRows[0].Trim().Split(' ')[0]);
+            int noteLength = int.Parse(inputRows[0].Trim().Split(' ')[1]);
+            string[] magazine = inputRows[1].Split(' ');
+            string[] ransomNote = inputRows[2].Split(' ');
 
-            string fileNameOutput = "output15.txt";
-            path = Path.Combine(Environment.CurrentDirectory, @"Array\Data\Crush\output\", fileNameOutput);
+            string fileNameOutput = "output21.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"DictionariesAndHashmaps\Data\RansomNote\output\", fileNameOutput);
             String output = File.ReadAllText(path);
-            int outputValue = int.Parse(output.Split('\n')[0].Trim());
 
-            int N = int.Parse(input.Split('\n')[0].Trim().Split(' ')[0]);
-            int M = int.Parse(input.Split('\n')[0].Trim().Split(' ')[1]);
 
-            int i = 0, j = 0;
-            int[][] arr = new int[M][];
-
-            foreach (var row in input.Split('\n'))
-            {
-                if (i != 0)
-                {
-                    j = 0;
-                    arr[i - 1] = new int[M];
-                    foreach (var col in row.Trim().Split(' '))
-                    {
-                        arr[i - 1][j] = int.Parse(col.Trim());
-                        j++;
-                    }
-                }
-
-                i++;
-            }
             //Act
-            var result = Crush.crush(N, arr);
-            Assert.AreEqual(result, outputValue);
+            var result = RansomNote.CheckMagazine(magazine, ransomNote);
+            //Assert
+            Assert.AreEqual(result, output);
+        }
+        [Test]
+        public void TestCase3()
+        {
+            //Arrange
+            string fileName = "input09.txt";
+            string path = Path.Combine(Environment.CurrentDirectory, @"DictionariesAndHashmaps\Data\RansomNote\input\", fileName);
+            String input = File.ReadAllText(path);
+            var inputRows = input.Split('\n');
+            int magazineLength = int.Parse(inputRows[0].Trim().Split(' ')[0]);
+            int noteLength = int.Parse(inputRows[0].Trim().Split(' ')[1]);
+            string[] magazine = inputRows[1].Split(' ');
+            string[] ransomNote = inputRows[2].Split(' ');
+
+            string fileNameOutput = "output09.txt";
+            path = Path.Combine(Environment.CurrentDirectory, @"DictionariesAndHashmaps\Data\RansomNote\output\", fileNameOutput);
+            String output = File.ReadAllText(path);
+
+
+            //Act
+            var result = RansomNote.CheckMagazine(magazine, ransomNote);
+            //Assert
+            Assert.AreEqual(result, output);
         }
     }
 }

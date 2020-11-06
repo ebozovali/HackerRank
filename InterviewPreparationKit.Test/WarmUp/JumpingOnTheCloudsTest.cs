@@ -13,7 +13,6 @@ namespace InterviewPreparationKit.Test.WarmUp
         {
             //Arrange
            
-            int pathLength = 7;
             string path = "0 0 1 0 0 1 0";
             var pathArr=path.Split(' ').Select(n => Convert.ToInt32(n)).ToArray();
             //Act
@@ -25,7 +24,6 @@ namespace InterviewPreparationKit.Test.WarmUp
         public void TestCase1()
         {
             //Arrange
-            int pathLength = 6;
             string path = "0 0 0 1 0 0";
             var pathArr = path.Split(' ').Select(n => Convert.ToInt32(n)).ToArray();
             //Act

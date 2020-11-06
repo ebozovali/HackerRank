@@ -16,12 +16,12 @@ namespace InterviewPreperationKit.WarmUp
      *  2. STRING path
      */
 
-        public static int CountingValleys(int steps, string path)
+        public static int countingValleys(int steps, string path)
         {
             int numberOfValleys = 0;
             var pathArr = path.ToCharArray();
             int seaLevel = 0;
-            for (int i = 0; i < pathArr.Length; i++)
+            for (int i = 0; i < steps; i++)
             {
                 if (seaLevel < 0)
                 {
@@ -32,9 +32,7 @@ namespace InterviewPreperationKit.WarmUp
                 {
                     seaLevel = seaLevel + (path[i] == 'U' ? +1 : -1);
                 }
-
             }
-
             return numberOfValleys;
         }
     }

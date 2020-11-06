@@ -47,6 +47,7 @@ namespace InterviewPreparationKit.Test.Array
             }
             //Act
             var result = Crush.crush(N, arr);
+            //Assert
             Assert.AreEqual(result, outputValue);
         }
         [Test]
@@ -85,6 +86,7 @@ namespace InterviewPreparationKit.Test.Array
             }
             //Act
             var result = Crush.crush(N, arr);
+            //Assert
             Assert.AreEqual(result, outputValue);
         }
         [Test]
@@ -123,6 +125,7 @@ namespace InterviewPreparationKit.Test.Array
             }
             //Act
             var result = Crush.crush(N, arr);
+            //Assert
             Assert.AreEqual(result, outputValue);
         }
     }

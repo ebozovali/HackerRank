@@ -15,7 +15,7 @@ namespace InterviewPreparationKit.Test.WarmUp
             long numberOfChars = 10;
             string s = "aba";
             //Act
-            var result = RepeatedString.RepeatedString(s,numberOfChars);
+            var result = RepeatedString.repeatedString(s,numberOfChars);
             //Assert
             Assert.AreEqual(7, result);
         }
@@ -26,7 +26,7 @@ namespace InterviewPreparationKit.Test.WarmUp
             long numberOfChars = 1000000000000;
             string s = "a";
             //Act
-            var result = RepeatedString.RepeatedString(s, numberOfChars);
+            var result = RepeatedString.repeatedString(s, numberOfChars);
             //Assert
             Assert.AreEqual(1000000000000, result);
         }

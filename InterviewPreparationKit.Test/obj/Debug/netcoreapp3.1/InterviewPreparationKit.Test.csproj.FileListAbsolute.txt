@@ -232,3 +232,11 @@ C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\
 C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\output\output00.txt
 C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\output\output14.txt
 C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\Array\Data\Crush\output\output15.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\DictionariesAndHashmaps\Data\RansomNote\input\input00.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\DictionariesAndHashmaps\Data\RansomNote\input\input20.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\DictionariesAndHashmaps\Data\RansomNote\input\input21.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\DictionariesAndHashmaps\Data\RansomNote\output\output00.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\DictionariesAndHashmaps\Data\RansomNote\output\output20.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\DictionariesAndHashmaps\Data\RansomNote\output\output21.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\DictionariesAndHashmaps\Data\RansomNote\input\input09.txt
+C:\Users\OACLIENT1\Documents\GitHub\HackerRank\InterviewPreparationKit.Test\bin\Debug\netcoreapp3.1\DictionariesAndHashmaps\Data\RansomNote\output\output09.txt

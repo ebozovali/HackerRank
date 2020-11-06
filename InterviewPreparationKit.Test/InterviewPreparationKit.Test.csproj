@@ -92,6 +92,30 @@
     <None Update="Array\Data\TwoDArrayTest\input\input08.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="DictionariesAndHashmaps\Data\RansomNote\input\input00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DictionariesAndHashmaps\Data\RansomNote\input\input09.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DictionariesAndHashmaps\Data\RansomNote\input\input20.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DictionariesAndHashmaps\Data\RansomNote\input\input21.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DictionariesAndHashmaps\Data\RansomNote\output\output00.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DictionariesAndHashmaps\Data\RansomNote\output\output09.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DictionariesAndHashmaps\Data\RansomNote\output\output20.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DictionariesAndHashmaps\Data\RansomNote\output\output21.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

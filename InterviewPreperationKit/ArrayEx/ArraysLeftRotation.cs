@@ -4,9 +4,9 @@ using System.Text;
 
 namespace InterviewPreperationKit.ArrayEx
 {
-    public class RansomNote
+    public class ArraysLeftRotation
     {
-        public static int[] RotLeft(int[] a, int d)
+        public static int[] rotLeft(int[] a, int d)
         {
             d = d % a.Length;
             var tempArr = new int[d];
