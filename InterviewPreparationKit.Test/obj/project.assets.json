@@ -4594,19 +4594,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OACLIENT1\\.nuget\\packages\\": {}
+    "C:\\Users\\elber\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OACLIENT1\\Documents\\GitHub\\HackerRank\\InterviewPreparationKit.Test\\InterviewPreparationKit.Test.csproj",
+      "projectUniqueName": "C:\\Users\\elber\\source\\repos\\HackerRank\\InterviewPreparationKit.Test\\InterviewPreparationKit.Test.csproj",
       "projectName": "InterviewPreparationKit.Test",
-      "projectPath": "C:\\Users\\OACLIENT1\\Documents\\GitHub\\HackerRank\\InterviewPreparationKit.Test\\InterviewPreparationKit.Test.csproj",
-      "packagesPath": "C:\\Users\\OACLIENT1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OACLIENT1\\Documents\\GitHub\\HackerRank\\InterviewPreparationKit.Test\\obj\\",
+      "projectPath": "C:\\Users\\elber\\source\\repos\\HackerRank\\InterviewPreparationKit.Test\\InterviewPreparationKit.Test.csproj",
+      "packagesPath": "C:\\Users\\elber\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elber\\source\\repos\\HackerRank\\InterviewPreparationKit.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\OACLIENT1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elber\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4619,8 +4623,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\OACLIENT1\\Documents\\GitHub\\HackerRank\\InterviewPreperationKit\\InterviewPreperationKit.csproj": {
-              "projectPath": "C:\\Users\\OACLIENT1\\Documents\\GitHub\\HackerRank\\InterviewPreperationKit\\InterviewPreperationKit.csproj"
+            "C:\\Users\\elber\\source\\repos\\HackerRank\\InterviewPreperationKit\\InterviewPreperationKit.csproj": {
+              "projectPath": "C:\\Users\\elber\\source\\repos\\HackerRank\\InterviewPreperationKit\\InterviewPreperationKit.csproj"
             }
           }
         }
@@ -4662,7 +4666,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
